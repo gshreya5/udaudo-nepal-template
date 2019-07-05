@@ -1,0 +1,197 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+.heading1{font-size:36px;
+  line-height:30px;
+  font-family:'Roboto', sans-serif;
+  text-transform:uppercase;
+  text-align: center;
+}
+
+section p {
+  font-family: "Bookman Old Style";
+  color:dimgrey;
+  text-align: justify;
+}
+
+.heading4 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Bookman', sans-serif;
+  color: #111111;
+  margin: 0px 0px 5px 0px;
+  line-height: 1.2;
+}
+
+.header{
+  padding: 10px 10px;
+ background-color:   #2a67a3;
+ color: white;
+  box-shadow: 0px 5px 40px rgba(153, 153, 153, 0.5); 
+}
+
+/* Vision
+============================================================================================ */
+.vision_about .vision_thumb {
+    overflow: hidden;
+    display: inline-block; }
+    .vision_about_content p{
+        color:dimgrey;
+    }
+  @media (max-width: 991px) {
+    .vision_about .vision_about_content {
+      text-align: center; } }
+  .vision_about .vision_about_content h2 {
+    font-size: 36px;
+    margin-bottom: 10px; }
+    @media (max-width: 767px) {
+      .vision_about .vision_about_content h2 {
+        font-size: 25px;
+      width: 100%; } }
+    @media (max-width: 1199px) {
+      .vision_about_left {
+         display: none; 
+       } 
+      
+      }
+  .vision_about .vision_about_content p:last-of-type {
+    margin-bottom: 0; }
+  .vision_about .vision_about_content .primary_btn {
+    margin-top: 35px; }
+  .vision_about .vision_about_left {
+    padding-right: 0;
+    padding-left: 30px; }
+    @media (max-width: 991px) {
+      .vision_about .vision_vision_about_left {
+        padding-right: 15px;
+        margin-top: 0px;
+        margin-bottom: 40px; } }
+  .vision_about .vision_about_right {
+    padding: 110px 60px;
+    background: #ffffff;
+    margin-top: 70px;
+    margin-left: -40px;
+    z-index: 2;
+    box-shadow: 0px 5px 40px rgba(153, 153, 153, 0.2); }
+    @media (max-width: 1199px) {
+      .vision_about .vision_about_right {
+        padding: 50px 30px; } }
+    @media (max-width: 991px) {
+      .vision_about .vision_about_right {
+        margin-left: 0;
+        margin-top: 20px; } }
+  
+  /* End Vision
+  ============================================================================================ */
+  
+
+
+
+
+
+
+   /* PROJECT
+============================================================================================ */
+.project_sec{
+  padding-top: 100px;
+}
+  .project_tab li a {
+    font-family:'Roboto', sans-serif;
+background-color:rgb(128, 127, 127);
+    font-weight: 500;
+    color:white;
+    border-radius: 0px;
+    margin-right: 22.008px;
+    border: 1px solid #ebebeb !important;
+  }
+
+  .project_tab .active a:before {
+    content: "♦";
+    position: absolute;
+    top: 20px;
+    left: 0 px;
+    color: #2a67a3;
+    font-size: 30px;
+  }
+  .project_tab li a:hover {
+    color: #2a67a3 !important;
+    text-decoration: none;
+  }
+
+  .project_tab .active a:hover {
+    color: #fff !important;
+  }
+
+  .project_tab .active a {
+    background-color: #2a67a3 !important;
+    color: #FFF !important;
+  }
+
+  .project_tab li a:last-child {
+    
+    padding: 11px 12px;
+    margin: 0px 6px;
+  }
+
+  .project_margin {
+    margin-top: 30px;
+  }
+  .project_tab {
+    padding-top: 16px;
+    border: 0;
+    margin: 0 10px;
+  }
+
+  .carousel-control {
+    width: 30px;
+    height: 30px;
+    top: 0px;
+  }
+  .left.carousel-control {
+    right: 30px;
+    left: inherit;
+  }
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right {
+    font-size: 12px;
+    background-color: #fff;
+    line-height: 30px;
+    text-shadow: none;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+ 
+
+  @media (max-width: 768px) {
+    .project_sec{
+      padding-top: 20px;
+    }
+   .project_tab li a{
+     width:max-content;
+   }
+   .heading1{
+     font-size: 25px;
+   }
+   .header{
+     padding: 0px 0px;
+     line-height: 0px;
+   }
+.heading4{
+  padding-top: 10px;
+}
+.project_tab li {   
+ width: 100%;
+}
+
+.project_tab li a {  
+  text-align: center;
+  width: 100%;
+ }
+
+  }
+ 
+
+
+
+  /* End PROJECT
+============================================================================================ */
